@@ -1,1 +1,17 @@
-<p>navbar works!</p>
+<nav class="navigation-bar">
+    <ul class="navigation-list">
+        <li class="navigation-item">
+            <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Portfolio</a>
+        </li>
+        <li class="navigation-item">
+            <a routerLink="about" routerLinkActive="active">About</a>
+        </li>
+        <li class="navigation-item">
+            <a routerLink="contact" routerLinkActive="active">Contact</a>
+        </li>
+    </ul>
+    <div class="navigation-logo">
+        <img src="assets/images/skyscraper.png" loading="lazy">
+        Hong Qong
+    </div>
+</nav>

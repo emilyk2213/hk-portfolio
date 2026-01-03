@@ -1,0 +1,45 @@
+.navigation-bar {
+    background-color: #636B70;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navigation-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+    display: flex;
+    margin-left: 2rem;
+    font-size: 1.05rem;
+}
+
+.navigation-item {
+    margin-right: 1rem;
+}
+
+.navigation-list, .navigation-logo, a {
+    color: azure;
+    text-decoration: none;
+}
+
+.navigation-list a.active {
+    text-decoration: underline;
+}
+
+.navigation-logo {
+    margin-left: auto;
+    max-height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.25rem;
+    margin-right: 2rem;
+}
+
+img {
+    max-height: 3rem;
+}
