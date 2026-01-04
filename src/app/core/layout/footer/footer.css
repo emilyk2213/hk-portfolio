@@ -1,0 +1,26 @@
+.footer-background {
+    background-color: #636B70;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.25rem;
+}
+
+img {
+    max-height: 3rem;
+}
+
+.footer-line {
+    border-top: 1px solid rgb(199, 199, 199);
+    width: 75%;
+}

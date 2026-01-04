@@ -1,0 +1,46 @@
+.background-image {
+    min-height: calc(100vh - var(--navbar-height));
+    background-image: url('/assets/images/victoria.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-background {
+    background-color: #C6BFBA;
+    column-count: 4;
+    column-gap: 1.5rem;
+    padding: 5rem;
+}
+
+.portfolio-row {
+    break-inside: avoid;
+    margin-bottom: 1.5rem;
+}
+
+.portfolio-row img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+@media (max-width: 1200px) {
+    .portfolio-background {
+        column-count: 3;
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio-background {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio-background {
+        column-count: 1;
+    }
+}
